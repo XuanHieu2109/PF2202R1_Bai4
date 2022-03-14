@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: yellow;
+            width: 300px;
+        }
+
+        caption {
+            background-color: rgb(187, 228, 228);
+            color: blue;
+            text-align: left;
+            margin: 5px;
+        }
+        
+        .trai{
+            text-align: left;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <caption>ĐĂNG KÝ HỌC VIÊN</caption>
+            <tr>
+                <td class="trai">Họ và tên</td>
+                <td><input type="text" name="name" style="width: 200px;"></td>
+            </tr>
+            <tr>
+                <td class="trai">Ngày sinh</td>
+                <td><input type="text" name="birth" style="width: 130px;"></td>
+            </tr>
+            <tr>
+                <td class="trai">Giới tính</td>
+                <td><input type="radio" name="gender">Nam
+                    <input type="radio" name="gender">Nữ</td>
+            </tr>
+            <tr>
+                <td class="trai">Địa chỉ</td>
+                <td><textarea row="20" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td class="trai">Lớp</td>
+                <td>
+                    <select>
+                        <option value="">- Chon lop -</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="trai">Email</td>
+                <td><input type="email" name="email" style="width: 170px;"></td>
+            </tr>
+            <tr>
+                <td class="trai">Số điện thoại</td>
+                <td><input type="number" name="phone" style="width: 170px;"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Đăng ký">
+                    <input type="button" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
